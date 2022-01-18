@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: test2-deployment
-  namespace: argocd-emp
+  namespace: argocd-empv3
 spec:
   selector:
     matchLabels:
